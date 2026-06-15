@@ -1,19 +1,9 @@
 from app.models.category import Category
+from app.resources.text.seed_data import CATEGORIES
 
 def seed_categories(db):
     
-    categories = [
-        {'title' : 'Personal',
-         'description' : '...'},
-        {'title' : 'Study',
-         'description' : '...'},
-        {'title' : 'Work',
-         'description' : '...'},
-        {'title' : 'Health',
-         'description' : '...'},
-        {'title' : 'Finance',
-         'description' : '...'}
-    ]
+    categories = CATEGORIES
     
     for category in categories:
          

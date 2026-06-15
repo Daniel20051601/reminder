@@ -1,13 +1,9 @@
 from app.models.status import Status
+from app.resources.text.seed_data import STATUSES
 
 def seed_status(db):
     
-    statuses = [
-        {'title' : 'Pending','description' : '...'},
-        {'title' : 'Completed','description' : '...'},
-        {'title' : 'Overdue','description' : '...'},
-        {'title' : 'Deleted','description' : '...'},
-    ]
+    statuses = STATUSES
     
     for status in statuses:
         
