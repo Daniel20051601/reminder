@@ -12,9 +12,13 @@ CATEGORIES = [
 ]
 
 STATUSES = [
-        {'title' : 'Pending','description' : 'A reminder that has been created but not yet completed.'},
-        {'title' : 'Completed','description' : 'A reminder that has been finished or marked as done.'},
-        {'title' : 'Overdue','description' : 'A reminder whose due date has passed without completion'},
-        {'title' : 'Deleted','description' : 'A reminder that has been removed or soft-deleted from active use.'},
+        {'title' : 'Pending',
+         'description' : 'A reminder that has been created but not yet completed.'},
+        {'title' : 'Completed',
+         'description' : 'A reminder that has been finished or marked as done.'},
+        {'title' : 'Overdue',
+         'description' : 'A reminder whose due date has passed without completion'},
+        {'title' : 'Deleted',
+         'description' : 'A reminder that has been removed or soft-deleted from active use.'},
 ]
 
